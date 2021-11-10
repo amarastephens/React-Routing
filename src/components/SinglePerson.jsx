@@ -13,13 +13,13 @@ const SinglePerson = () => {
 
     return (
         <div className="col-12 mt-3" key={person.id}>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">{person.name}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">{person.gender}</h6>
-                    <h6 class="card-subtitle mb-2 text-muted">Hair Color: {person.hair_color}</h6>
-                    <h6 class="card-subtitle mb-2 text-muted">Eye Color: {person.eye_color}</h6>
-                    <p class="card-text">{person.age}</p>
+            <div className="card">
+                <div className="card-body">
+                    <h5 className="card-title">{person.name}</h5>
+                    <h6 className="card-subtitle mb-2 text-muted">{person.gender}</h6>
+                    <h6 className="card-subtitle mb-2 text-muted">Hair Color: {person.hair_color}</h6>
+                    <h6 className="card-subtitle mb-2 text-muted">Eye Color: {person.eye_color}</h6>
+                    <p className="card-text">{person.age}</p>
                 </div>
             </div>
         </div>
